@@ -8,7 +8,7 @@ const verTotal = document.getElementById("total")
 // FUNCIONES
 // Funcion que trae los productos de una API y los transforma en objetos para cargarlos y mostrarlos
 const traerProd = async (id) => {
-    const resp = await fetch('/prod.json')
+    const resp = await fetch('./prod.json')
     const data = await resp.json()
     const obj = data[id]
     cargarProducto(obj)
