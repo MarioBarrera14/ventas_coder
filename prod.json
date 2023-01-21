@@ -1,0 +1,24 @@
+[{
+  "id": "buy1",
+  "nombre": "A23",
+  "precio": 14000,
+  "imagen": "img (1).jpeg"
+},
+{
+  "id": "buy2",
+  "nombre": "S20",
+  "precio": 190000,
+  "imagen": "img (2).jpeg"
+},
+{
+  "id": "buy3",
+  "nombre": "A13",
+  "precio": 21000,
+  "imagen": "img (3).jpeg"
+},
+{
+  "id": "buy4",
+  "nombre": "Moto G90",
+  "precio": 96000,
+  "imagen": "img (4).jpeg"
+}]

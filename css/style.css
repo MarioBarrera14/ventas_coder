@@ -1,0 +1,116 @@
+body {
+    background-image: url(/img/circulo.jpg);
+    font-family: 'Rubik', sans-serif;
+    background-size: 200% 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    
+    animation: mov 30s infinite linear alternate;
+}
+
+@keyframes mov {
+    from {
+        background-position:  left;
+    }
+
+    to {
+        background-position: right ;
+    }
+}
+
+.contenedorPrincipal {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.swal-overlay {
+    background-color: rgba(54, 118, 221, 0.544);
+}
+
+.swal-text {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Productos */
+.prod {
+    min-height: 350px;
+    max-height: 450px;
+    max-width: 250px;
+    transition: 0.2s;
+}
+
+.prod:hover {
+    box-shadow: rgba(0, 0, 0, 0.74) 0px 3px 8px;
+}
+
+.prod__img {
+    display: block;
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+
+}
+
+/* Carrito de compras */
+
+.carrito {
+    padding: 15px;
+    min-height: 100px;
+    min-width: 500px;
+    max-width: 600px;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    background-color: #FFFFFF;
+}
+
+.carrito:hover {
+    box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 8px;
+}
+
+.titulo__carrito{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-bottom: 4px groove #2199CB;
+}
+.texto__carrito{
+    font-size: 18px;
+   
+}
+
+
+/* BOTONES DE TOTAL Y VACIAR CARRITO */
+.button-43 {
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-43:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+    .button-43 {
+        padding: 1rem 2rem;
+    }
+}
